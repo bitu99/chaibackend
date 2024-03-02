@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css"><!DOCTYPE html>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/de8496d5b8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Akash pandey</h1>
+        <i class="ri-close-fill" style="display: none; font-size: 4.2vh;"></i>
+        <i class="ri-menu-line" ></i>
+        <div class="nav-part2">
+            <ul>
+                <button><a href="#about-me"><li>About</li></a></button>
+                <button><a href="#section3"><li>Skills</li></a></button>
+                <button><a href="#project-section"><li>Projects</li></a></button>
+                <button><a href="#footer-section"><li>Socials</li></a></button>
+            </ul>
+        </div>
+    </div>
+
+    <section class = "section1" id="home-section">
+        <div class="box1">
+            <div class="nav-part3">
+                <ul>
+                    <button><a href="#about-me"><li>About</li></a></button>
+                    <button><a href="#section3"><li>Skills</li></a></button>
+                    <button><a href="#project-section"><li>Projects</li></a></button>
+                    <button><a href="#footer-section"><li>Socials</li></a></button>
+                </ul>
+            </div>
+            <div class="intro">
+                <h1>Hi, I am Akash</h1>
+                Front-end developer with proven ability to design and develop JavaScript-based applications for web or mobile environments. Strong knowledge of front-end development and computer science fundamentals.
+                <br><button id="resumeBtn"><a href="Akash's Resume (3).pdf" download>Resume</a><i class="fa-solid fa-download" style="color: #ffffff;"></i></i></button>
+                <div class="icons" id="icons1">
+                    <button><a href="https://www.linkedin.com/in/akash-pandey-5a53791b9"><i class="fa-brands fa-linkedin-in" style="color: #303030;"></i></a></button>
+                    <button><a href="https://github.com/bitu99"><i class="fa-brands fa-github" style="color: #303030;"></i></a></button>
+                    <button><a href="https://twitter.com/the_ak_pandey?t=P-U7HEk1SeA1RXqvp1P4kg&s=08"><i class="fa-brands fa-twitter" style="color: #303030;"></i></a></button>
+                </div>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="icons" id="icons2">
+                <button><a href="https://www.linkedin.com/in/akash-pandey-5a53791b9"><i class="fa-brands fa-linkedin-in" style="color: #303030;"></i></a></button>
+                <button><a href="https://github.com/bitu99"><i class="fa-brands fa-github" style="color: #303030;"></i></a></button>
+                <button><a href="https://twitter.com/the_ak_pandey?t=P-U7HEk1SeA1RXqvp1P4kg&s=08"><i class="fa-brands fa-twitter" style="color: #303030;"></i></a></button>
+            </div>
+            <div class="img">
+                <img class = "sec1-img" src="myImage2.jpeg" alt="img">
+<!--                 aksh-color-new.jpg -->
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section2" id="about-me">
+        
+        <div class="box3">
+            <img src="myImage3.jpeg" alt="">
+        </div>
+
+        
+        <div class="box4">
+            <div class="about-me-description">
+             I am a software developer based in Mumbai, India .
+             Currently, I am pursuing my bachelors in information technology from university of mumbai.
+             <br><br>
+ 
+             I have always
+             been fascinated by technology. 
+             Currently, I'm exploring React js  as part of my skillset. As a Web developer who is
+             skilled in many areas of development  (responsive design being
+             one), I would love to work with businesses both small and large!
+             <br><br>
+ 
+             I have created many web applications, click to see some of my works.<br><br>
+ 
+             <button class="portfolio-btn"><a style="text-decoration: none; color: white;" href="#project-section">Portfolio</a></button>
+            </div>
+         </div>
+    </section>
+
+    <section class="progress-bars" id="skills-section">
+        <div class="bar-box">
+            <div class="box" id="box1">
+                <div class="text">HTML</div>
+                <div class="progress-line">
+                    <div class="progress" id="progress1"></div>
+                </div>
+            </div>
+            <div class="box" id="box2">
+                <div class="text">CSS</div>
+                <div class="progress-line">
+                    <div class="progress" id="progress2"></div>
+                </div>
+            </div>
+            <div class="box" id="box3">
+                <div class="text">Javascript</div>
+                <div class="progress-line">
+                    <div class="progress" id="progress3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="bar-box">
+            <div class="box" id="box4">
+                <div class="text">Java</div>
+                <div class="progress-line">
+                    <div class="progress" id="progress4"></div>
+                </div>
+            </div>
+            <div class="box" id="box5">
+                <div class="text">Mysql</div>
+                <div class="progress-line">
+                    <div class="progress" id="progress5"></div>
+                </div>
+            </div>
+            <div class="box" id="box6">
+                <div class="text">Responsive <br>design</div>
+                <div class="progress-line">
+                    <div class="progress" id="progress6"></div>
+                </div>
+            </div>
+        </div>
+        <div class="bar-box">
+            <div class="box" id="box7">
+                <div class="text">React.js</div>
+                <div class="progress-line">
+                    <div class="progress" id="progress7"></div>
+                </div>
+            </div>
+            <div class="box" id="box8">
+                <div class="text">TailwindCSS</div>
+                <div class="progress-line">
+                    <div class="progress" id="progress8"></div>
+                </div>
+            </div>
+            <div class="box" id="box9">
+                <div class="text">Git & GitHub</div>
+                <div class="progress-line">
+                    <div class="progress" id="progress9"></div>
+                </div>
+            </div>
+        </div>
+    </section><br><br>
+
+    <!-- <h1 class="skill-text">Skills, I have</h1> -->
+    <section class="skill-slider" id="section3">
+        <div class="box" id="box1">
+            <h1>Skills,<br> I have</h1>
+        </div>
+        <div class="box" id="box2">
+            <div class="skill-box" id="s-box1">
+                <div class="s-text">HTML</div>
+                <div class="progress-box"><div id="progress1"></div></div>
+            </div>
+            <div class="skill-box" id="s-box1">
+                <div class="s-text">CSS</div>
+                <div class="progress-box"><div id="progress2"></div></div>
+            </div>
+            <div class="skill-box" id="s-box1">
+                <div class="s-text">JavaScript</div>
+                <div class="progress-box"><div id="progress3"></div></div>
+            </div>
+            <div class="skill-box" id="s-box1">
+                <div class="s-text">Java</div>
+                <div class="progress-box"><div id="progress4"></div></div>
+            </div>
+            <div class="skill-box" id="s-box1">
+                <div class="s-text">C++</div>
+                <div class="progress-box"><div id="progress5"></div></div>
+            </div>
+            <div class="skill-box" id="s-box1">
+                <div class="s-text">React</div>
+                <div class="progress-box"><div id="progress6"></div></div>
+            </div>
+            <div class="skill-box" id="s-box1">
+                <div class="s-text">Tailwind</div>
+                <div class="progress-box"><div id="progress7"></div></div>
+            </div>
+            <div class="skill-box" id="s-box1">
+                <div class="s-text">Mysql</div>
+                <div class="progress-box"><div id="progress8"></div></div>
+            </div>
+            <div class="skill-box" id="s-box1">
+                <div class="s-text">Responsive<br> design</div>
+                <div class="progress-box"><div id="progress9"></div></div>
+            </div>
+            <div class="skill-box" id="s-box1">
+                <div class="s-text">Figma</div>
+                <div class="progress-box"><div id="progress10"></div></div>
+            </div>
+            <div class="skill-box" id="s-box1">
+                <div class="s-text">DSA</div>
+                <div class="progress-box"><div id="progress11"></div></div>
+            </div>
+            <div class="skill-box" id="s-box1">
+                <div class="s-text">OOPs</div>
+                <div class="progress-box"><div id="progress12"></div></div>
+            </div>
+        </div>
+    </section><br><br><br>
+
+    <!-- -------------project-section----------- -->
+
+    <h1 class="section4-title">Some of my works</h1><br>
+    <section class="section4" id="project-section">
+<!--         <div class="project" id="project1">
+            <div class = "box5" id="project-description">
+                <h5><ul>
+                    <li>Made responsive restaurant website.</li>
+                    <li>Has smooth animation on scroll throughout the website.</li>
+                    <li>Hosted on GitHub pages.</li>
+                </ul></h5><br>
+                    <button class="project-btn" id="box5-btn1"><a href="https://bitu99.github.io/responsive-restaurant-website/">Link</a></button>
+                    <button class="project-btn" id="box5-btn2"><a href="https://github.com/bitu99/responsive-restaurant-website">Peek into code </a></button>
+                    </h5>
+            </div>
+            <div class="box6">
+                <img src="project1-img.png" alt="project1">
+            </div>
+        </div> -->
+        <div class="project" id="project2">
+            <div class="box7">
+                <img src="learnhub-img.jpeg" alt="project2">
+            </div>
+            <div class = "box8" id="project-description2">
+                <!-- <h5><ul>
+                    <li>Made coding learning website.</li>
+                    <li>Has quizzes regarding computer science fundamentals and have roadmaps for different technologies.</li>
+                    <li>Hosted on GitHub pages.</li>
+                </ul></h5><br> -->
+                    <a href="https://bitu99.github.io/Learnhub-tailwindCSS/"><button class="project-btn" id="box5-btn3">Link</button></a>
+                    <a href="https://github.com/bitu99/Learnhub-tailwindCSS"><button class="project-btn" id="box5-btn4">Peek into code</button></a>
+                    </h5>
+            </div>
+        </div>
+        <div class="project" id="project3">
+            <div class = "box9" id="project-description3">
+                <!-- <h5><ul>
+                    <li>Made calculator using HTML, CSS and vanilla Javascript.</li>
+                    <li>Has clean UI with all buttons working accordingly and all arithmetic operations performing seamlessly.</li>
+                    <li>Hosted on GitHub pages.</li>
+                </ul></h5><br> -->
+                <a href="https://bitu99.github.io/Techlink/"><button class="project-btn" id="box5-btn5">Link</button></a>
+                <a href="https://github.com/bitu99/Techlink"><button class="project-btn" id="box5-btn6">Peek into code</button></a>
+                    </h5>
+            </div>
+            <div class="box10">
+                <img src="techlink-img.jpeg" alt="project3">
+            </div><br><br>
+
+        </div>
+        <h1 style="display: flex;justify-content: center; font-size: 5vh; position: relative; height: 5vh; width: 100vw;"><a  style="text-decoration: none; color:rgb(48,48,48);" href="https://github.com/bitu99?tab=repositories">See more......</a></h1>
+    </section>
+
+    <section class="section5">
+        <div class="form">
+            <h1 style="font-size: 4vh;">Drop me a message</h1><br>
+        
+            <form action="https://formspree.io/f/xeqbplqb"
+            method="POST" autocomplete="on" id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your name">
+        
+                <input type="email" id="email" name="email" placeholder="Your email">
+        
+                <textarea type="text" id="message" name="message" ></textarea>
+        
+                <input type="submit" id="submit-btn" value="Send" placeholder="message">
+            </form>
+        </div>
+        <!-- Add this code to your HTML -->
+        <div id="custom-modal" class="modal">
+              <div class="modal-content">
+              <span class="close" id="close-modal">X</span>
+              <p>Email sent!</p>
+        </div>
+</div>
+
+    </section>
+
+    <!-- ------------footer------------- -->
+    <footer class="footer" id="footer-section">
+        <div class="footer-box" id="footer-box1">
+            <ul style="display: flex; flex-direction: column; line-height: 0%; padding: 0; margin: 0; gap: 25%;">
+                <h3><li>Links</li> </h3>
+                <li><a href="#home-section" class="footer__link">Home</a></li>
+                <li><a href="#skills-section" class="footer__link">Skills</a></li>
+                <li><a href="#project-section" class="footer__link">Projects</a></li>
+            </ul>
+        </div>
+        <div class="footer-box" id="footer-box2">
+            <!-- ------for Socials-------- -->
+            <div class="icons" id="footer-icons">
+                <ul>
+                    <h3><li>Socials</li> </h3>
+                    <li><a href="https://www.linkedin.com/in/akash-pandey-5a53791b9" class="footer__link">Linkedin</a></li>
+                    <li><a href="https://github.com/bitu99" class="footer__link">Github</a></li>
+                    <li><a href="https://twitter.com/the_ak_pandey?t=P-U7HEk1SeA1RXqvp1P4kg&s=08" class="footer__link">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/the_ak_pandey/" class="footer__link">Instagram</a></li>
+                    <li><a href="https://peerlist.io/user" class="footer__link">Peerlist</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-box" id="footer-box3">
+                <ul style="display: flex; flex-direction: column; line-height: 0%; padding: 0; margin: 0; gap: 25%;">
+                    <h3><li>Address</li> </h3>
+                    <li>Mumbai, India</li>
+                    <li>9582723960</li>
+                    <li>newakpandey@gmail.com</li>
+                    <p style="color: white; font-size: 12px; padding-top: 8px; margin-right:12px">&#169; 2023 bitu99. All rights reserved</p>    
+                </ul>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+   <script src="script.js"></script>
+</body>
+</html>
